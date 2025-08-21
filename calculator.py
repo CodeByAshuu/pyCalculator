@@ -94,11 +94,11 @@ def show(event):        #fuction for binding the buttons with the widget
         value = scval.get()
         n = len(scval.get())
         scval.set(value[:n-1])
-        ent.update
+        ent.update()
 
     else :
         scval.set(scval.get() + text)  # will print the value in the entry widget
-        ent.update
+        ent.update()
 #Main
 from tkinter import *
 
